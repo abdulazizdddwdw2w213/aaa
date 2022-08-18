@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<!-- <div id="div" style="border: solid 1px black ; width: 100px; 
+		height:100px; background-color: red; display: inline-block;
+		 		
+	 " > </div>
+
+	 <div id="div1" style="border: solid 1px black; width:100px;
+	 height: 100px; background-color: blue; display: inline-block;
+	 " > </div> -->
+
+<script type="text/javascript">
+// let as=document.getElementById('b')
+//         let a = prompt('1')
+//         function asan (){
+//         as.innerHTML=a 
+//         }
+        
+//         setInterval(()=> asan(),3000)
+
+// 
+// let a = document.getElementById('s')
+// 	let d = prompt('1')
+// 	function asan() {
+// 		ainnerHTML = d 
+// 		setInterval( (  )=> asan(),3000    )
+// 		}
+// 		alert( a)
+
+
+
+
+
+
+
+    let div = document.getElementById('div')
+    let div1 = document.getElementById('div1')
+   let num = 0
+
+function num_() {
+	num++
+
+
+if ( num % 2 == 0) { 
+		 div1.style.backgroundColor = 'red'
+		div.style.backgroundColor = '#28A3EE'
+
+
+	}else{
+		div1.style.backgroundColor = 'blue'
+		div.style.backgroundColor = 'red'
+}
+	}
+
+
+
+
+ let dd = setInterval( () => num_(), 1000)
+</script>
+</body>
+</html>

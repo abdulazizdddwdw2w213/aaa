@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<div id = 'text'></div> 
+  <script type="text/javascript"> 
+   let t = prompt("text") 
+   let j = document.getElementById('text') 
+   for(let i = 0; i < t.length; i++) { 
+   j.innerHTML += `<span style = "  
+    color: red;">${t[i]}</span>`; 
+    if (i % 2 == 0) { 
+     j.innerHTML += `<span style = "  
+    color: lime;">${t[i]}</span>`; 
+    } 
+     
+   else { 
+    j.innerHTML += `<span style = "  
+    color: blue;">${t[i]}</span>`; 
+   } 
+      
+   } 
+ 
+ 
+console.log(t) 
+  
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<h1 id="h1"> </h1>
+<h2 id="h2"></h2>
+
+<script> 
+const text = prompt('text') 
+   
+let  ind = 0;
+let c = 0;    
+ let v = document.getElementsByTagName('span')
+for (let i = 0; i < text.length; i++) {
+   h1.innerHTML +=`<span>${text[i]}</span>`;
+   
+    
+}
+ 
+onkeydown = (e) => {
+    if(e.key == text[ind] && text.length > ind  ) {
+        v[ind].style.color='lime' 
+     ind++
+     c++ 
+     if(text.length === ind){
+        h2.innerHTML = `<span>${c}/${text.length}</span> `
+     }
+    
+    }else if( e.key.length == 1  && text.length > ind  ) {
+        v[ind].style.color='red' 
+     ind++  
+     c++ 
+     if(text.length === ind){
+        h2.innerHTML = `<span>${c}/${text.length}</span> `
+     
+}
+    
+if( e.keyCode == 8  && ind > 0  ){
+ind--;
+v[ind].style.color='black'
+h2.innerHTML= " "
+
+}
+</script>
+
+
+
+
+</body>
+</html>

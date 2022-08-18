@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> </title>
+	<style type="text/css">
+		.card1 {
+			display:flex;
+			justify-content: center;
+		}	
+
+		.card{
+			border: solid 1px black;
+			width: 450px;
+			height: 450px;
+			position: relative;
+			overflow: hidden;
+			display: flex;
+			justify-content:end;
+			font-size:50px;
+			border: solid 1px black ;
+			 border-radius:20px ;
+		}
+		.a{
+			
+			 position: absolute;
+			 transition: 2s;
+			 left: -230px;
+			 border: solid 1px black;
+			 border-radius:30px;
+		}
+
+		.card:hover > .a{
+			left:-50px;
+
+		}
+		
+
+
+	</style>
+</head>
+<body>
+
+
+	<div class="card1"> 	
+	<div class="card" > <span > Азиатска <br> пицца</span>
+
+		<div class="a">  </div>
+
+
+		
+	</div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

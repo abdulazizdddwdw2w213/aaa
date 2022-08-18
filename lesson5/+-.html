@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<div style="display:flex;flex-wrap: wrap; justify-content: center; "> 
+
+	<button  onclick="asan()" style="background-color:lime; width:200px;
+		height:200px; border-radius:50%"> <h1 style="font-size:70px;" > +</h1> </button>
+
+	<button onclick="eee"() style=" width:200px;
+		height:200px; border-radius:50%"> 
+			<p  id="demo" style=" font-size:20px; font-size:40px;"></p>
+
+			
+ </button>
+
+	<button onclick="asan1()" style="background-color:red; width:200px;
+		height:200px; border-radius:50%; "> <h1 style="font-size:100px; margin-top:30px;" > - </h1> </button>
+
+</div>
+
+
+
+<script type="text/javascript">
+ let but1 = document.getElementById('demo1')  
+
+let but = document.getElementById('demo')
+let num = 0 
+function asan(b) {
+	num++
+	but.innerHTML = num
+
+		if (num > 0) {
+	demo.style.color = 'green'; 
+		}else{
+			demo.style.color = 'red'; 
+		}
+    
+
+}	
+function asan1(b) {
+	num -- 
+	but.innerHTML = num
+	if (num < 0) {
+	demo.style.color = 'red'; 
+		}else{
+			demo.style.color = 'green'; 
+		}
+
+}
+
+function eee(b) {
+	num++
+	but.innerHTML = num
+
+		if (num == 0) {
+	demo.style.color = 'white'; 
+		}else{
+			demo.style.color = 'white'; 
+		}
+    
+
+}	
+
+
+function gg() {
+  but1.innerHTML = num
+}
+
+
+</script>
+
+
+
+</body>
+</html>

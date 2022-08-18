@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+	.a{
+		border: solid 1px black];
+		background-color: lime;
+		width:200px;
+		height:200px;
+		position: absolute;
+
+
+	}
+
+	</style>
+</head>
+<body id="d">
+
+<div class="a" id="s"> </div>
+<script type="text/javascript">
+let top_ = 0 
+let left_ = 0 
+
+d.onkeydown = (e) => {
+	console.log(e)
+	if ( e.keyCode == 39 ) {
+		left_ += 10 
+		s.style.left = left_ + 'px'
+
+	}
+}
+
+d.onkeydown = (e) => {
+	console.log(e)
+	if ( e.keyCode == 40 ) {
+		top_ += 10 
+		s.style.top = top_ + 'px'
+
+	}
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    
+<h1 style="color:blue; text-align: center; margin-top:100px;" >Facebook</h1>
+
+<div style="width:500px ;" class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>Добро пожаловать ! </strong> Данный проект был создан Абдулазизом
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+<div style="width: 200px; margin-left:700px ;"  class="alert alert-primary" role="alert">
+   введитье  свои даные!
+  </div>
+  
+
+<div style="margin-left:600px; margin-top:50px;"> 
+<form>
+    <div class="row mb-3">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Емайл</label>
+      <div class="col-sm-10">
+        <input style="width:250px ;" type="email"  class="form-control" id="inputEmail3">
+      </div>
+    </div>
+    <div class="row mb-3">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">пароль</label>
+      <div class="col-sm-10">
+        <input id="inp" style="color: black ;"  type="password">
+
+        <button style=" background-color: white; margin-left:-50px;"  id="dd"  onclick="btn(inp)"> пакозать пароль </button> 
+
+
+      </div>
+    </div>
+    <fieldset class="row mb-3">
+      <legend class="col-form-label col-sm-2 pt-0">Пол</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+          <label class="form-check-label" for="gridRadios1">
+            Мужчина
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          <label class="form-check-label" for="gridRadios2">
+            Женшина
+          </label>
+        </div>
+        <div class="form-check disabled">
+         
+        </div>
+    </fieldset>
+    <div class="row mb-3">
+      <div class="col-sm-10 offset-sm-2">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck1">
+          <label class="form-check-label" for="gridCheck1">
+            я не робот
+          </label>
+        </div>
+      </div>
+    </div>
+    <a class="btn btn-primary" href="file:///C:/Users/user/Desktop/Besoft_teach/%D0%90%D0%94%D0%A3%D0%9B%D0%94%D0%9B%D0%90%D0%A3%D0%94%D0%90%D0%9B%D0%AE.html">Войти</a>
+  </form>
+</div>
+<div id="text"> </div>
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+
+let a = true;
+
+
+ btn = ( inp ) => {
+    a = !a 
+
+    if(a) {
+inp.type = 'password'
+  dd.innerHTML =  'паказать пароль'
+
+    }else{
+        inp.type = `text`
+        dd.innerHTML = 'скрыть пароль'
+    }
+
+
+
+
+ }
+
+
+
+
+ </script>
+  
+    
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{
+            width: 200px;
+            height: 50px;
+            border-radius: 10px;
+            text-align: center;
+            background-color: rgb(85, 196, 41);
+            margin-top: 200px;
+            font-size: 20px;
+            transition: 2s;
+            margin-left: -250px;
+            color: white;
+        }   
+    </style>
+</head>
+<body>
+    <div id="todo"><h1>Todo list(0)</h1></div>
+  <input type="text" id="inp">
+  <button onclick="btn()">ok</button>  
+  <input type="text" id="inpu">
+  <div>  <ul id="ul"></ul> </div>
+ 
+  <div  class="div" id="div"> напишите что нибудь</div>
+  <script>
+    let mas = [];
+    let i = 0;
+    inpu.oninput = (e) => {
+        ul.innerHTML = ''
+      let g = mas.filter(r => r.includes(e.trget.value))  
+      if (g.length > 0) {
+        g.map(t => {
+            ul.innerHTML += `<li>${t}</li>`
+        })
+        
+      }
+      else {
+        ul.innerHTML = "No result"
+      }
+    }
+    dii = () => {
+        div.style.marginLeft = '20px'
+    }
+    diiiv = () => {
+        div.style.marginLeft = '-250px'
+    }
+
+  const  btn = () => {
+      mas.push(inp.value)
+       if(inp.value){
+          i += 1;
+        todo.innerHTML=`<h1>Todo list(${i})</h1>`
+        ul.innerHTML+=`<li>${inp.value}</li>`
+        inp.value=''
+       }
+       else{
+        dii()
+        setTimeout(() => diiiv(), 2000)
+       }
+    }
+  </script>
+
+
+
+
+
+
+
+
+</body>
+</html>

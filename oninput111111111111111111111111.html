@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+        <div style="display: flex ; justify-content: center; margin-top: 100px;"> 
+
+            <div style="background-color: grey; width: 350px; height:350px; border: solid 1px black; "> </div>
+
+        </div>
+
+    <div style="display: flex  ; flex-wrap: wrap;  justify-content: center; "> 
+
+    <input   id="inp" style="font-size: 10px;"  type="password">
+    <input  id="inp1" style="font-size: 10px;" type="email">
+    <button  disabled  id="btn">dc</button>
+    <div id="div"> </div>
+</div>
+
+
+<script>
+
+let a = document.getElementById('btn')
+let a1 = document.getElementById('inp')
+let a2 = document.getElementById('inp1')
+inp.oninput = () => {
+
+
+ inp.value.length > 2 && inp1.value.length> 2   ?
+    
+ btn.disabled = false   :btn.disabled = true  
+
+  
+}
+
+
+inp1.oninput = () => {
+ 
+
+ inp1.value.length > 2 && inp.value.length> 2  ? 
+    
+ btn.disabled = false   :btn.disabled = true
+
+  
+}
+
+
+
+
+</script>
+</body>
+</html>

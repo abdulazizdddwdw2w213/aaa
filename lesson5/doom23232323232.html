@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <meta charset="utf-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ 
+ 
+ <title></title> 
+</head> 
+<body> 
+ <input id="b" oninput="ss()" type="checkbox">
+
+     
+<script type="text/javascript"> 
+ let s = ['red', 'yellow', 'blue', 'lime', 'pink',  'black', 'purple', 'green', 'orange']; 
+ 
+ let i = 0; 
+ let but = document.getElementById('b')  
+
+ function ss() { 
+  but.innerHTML = s[i]; 
+  
+ document.body.style.backgroundColor = s[i]; 
+    
+   if (i>=s.length) { 
+   i = 0 
+  } 
+  i++; 
+  } 
+  
+  
+</script> 
+</body> 
+</html>
+

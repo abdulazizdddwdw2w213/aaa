@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <meta charset="utf-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ <title></title> 
+</head> 
+<body> 
+ <div id = 'text'></div> 
+
+<div id = 'text'></div> 
+  <script type="text/javascript"> 
+    
+   let r = prompt('rounds') 
+   let div = document.getElementById('a') 
+   let te = div.innerHTML; 
+ div.innerHTML = '' 
+ let col = ["red","pink","yellow","green","blue",] 
+ t=0 
+ let colb = ["blue","gold","red","darkyellow","yellow",] 
+ f=0 
+   for(let i = 1; i <= r; i++){ 
+ div.innerHTML += `<div style="border: 1px black solid; 
+    color: ${col[f]}; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: ${colb[t]}; 
+    width: 100px; 
+    height: 100px; 
+    border-radius:100%; 
+    margin: 3px; 
+ 
+    ${r}">${i}</div>` 
+    t++; 
+    f++; 
+    if (t==5) { 
+      
+     t=0 
+    }  
+    if (f==5) { 
+      
+     f=0 
+    }  
+ } 
+ console.log(div)  -->
+
+let a = prompt('text')
+
+let b = document.getElementById('text')
+b.innerHTML = v
+let c = ['red, blue']
+
+for (let  i = 0; i >= t; i++) {
+	div.innerHTML +=`<span style = " ${v[i]}  					
+	color: red;" </span> ` 
+if ( i % 2 == 0 ) {
+	r[i] = 'red'
+}
+else ( i % 2 == 1  )
+
+r = c 
+}
+consoleб.log(v)
+
+   let t = prompt("text") 
+   let j = document.getElementById('text') 
+   for(let i = 0; i < t.length; i++) { 
+   j.innerHTML += `<span style = "  
+    color: ${i%2 == 0 ? 'red' : 'blue'};">${t[i]}</span>`; 
+   } 
+
+ 
+
+   
+ 
+ 
+console.log(t)  	
+  
+
+
+  </script> 
+    
+</body> 
+</html>
+
+
+
+
+

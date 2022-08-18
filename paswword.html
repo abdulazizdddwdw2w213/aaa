@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<input id="inp" style="color: black ;"  type="password">
+
+<button style=" background-color: white; margin-left:-50px;"  id="dd"  onclick="btn(inp)"> пакозать пароль </button> 
+
+<div id="text"> </div>
+
+
+
+
+
+
+<script>
+let a = true;
+
+
+ btn = ( inp ) => {
+    a = !a 
+
+    if(a) {
+inp.type = 'password'
+  dd.innerHTML =  'паказать пароль'
+
+    }else{
+        inp.type = `text`
+        dd.innerHTML = 'скры пароль'
+    }
+
+
+
+
+ }
+
+
+
+
+
+
+
+    
+    
+    </script>    
+</body>
+</html>

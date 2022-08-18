@@ -1,0 +1,405 @@
+.card{
+		background-color: blue;
+		width:1600px;
+		height:250px;
+	}
+
+.text12{
+		font-size:40px;
+		color:white;
+		position: relative;
+		top:120px;
+		left:730px;
+		animation-name:text;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+}
+
+	.text1{
+		font-size:20px;
+		color:white;
+		position: relative;
+		left:600px;
+	
+	}
+@keyframes text {
+
+	from {
+		text-shadow: 1px 2px 5px white;
+
+	}	
+	to{
+		text-shadow:2px 0px 30px red;
+	}
+}
+
+.input{
+	font-size:30px;
+	position: relative;
+	top:10px;
+	width:1500px;
+}
+
+
+
+
+	.img{
+		width:130px;
+		height:130px;
+		border-radius:150px;
+		position:relative;
+		left:730px;
+		top:-70px;
+		animation-name:asan1;
+		animation-iteration-count:infinite;
+		animation-duration:3s;
+		position: absolute;
+		top:0px;
+	}
+
+@keyframes asan1{  
+0%{
+   transform: rotate(00deg);
+   
+}25%{
+  
+   transform: rotate(30deg);
+}
+50%{
+  
+      transform:rotate(-15deg)
+}
+
+}
+
+.img2{
+	width:300px;
+	height:300px;
+
+
+}
+
+.card2{
+	border:solid 1px black;
+	width:280px;
+	height:380px;
+	margin:10px;
+
+
+}
+
+.text3{
+	font-size:20px;
+	color:blue;
+	position: relative;
+	left:140px;
+	top:330px;
+
+}
+	
+	.img2{
+	
+		width:250px;
+		transition:2s;
+		padding-right:80px;
+
+
+	}
+
+
+
+	.img2:hover{
+		transform: scale(0.8);
+
+	}
+
+ .card3{
+	border:solid 1px black;
+	width:280px;
+	height:380px;
+	left:40px;
+	margin:10px;
+}
+
+	.img3{
+		
+		width:280px;
+		transition:2s;
+		padding-top:10PX;
+		padding-right:200PX;
+	}
+
+
+
+	.img3:hover{
+		transform: scale(0.8);}
+
+
+		 .card4{
+	border:solid 1px black;
+	width:280px;
+	height:380px;
+	margin:10px;}
+
+	.img4{
+		padding-right:20px;
+		width:280px;
+		transition:2s;
+
+
+	}
+
+.text4{
+	font-size:20px;
+	color:blue;
+	position: relative;
+	left:140px;
+	top:330px;}
+
+
+	.img4:hover{
+		transform: scale(0.8);}
+		
+		
+
+ .card5{
+	border:solid 1px black;
+	width:280px;
+	height:380px;
+		margin:10px;}
+
+	.img5{
+		padding-right:20px;
+		width:280px;
+		transition:2s;}
+
+.text5{
+	font-size:20px;
+	color:blue;
+	position: relative;
+	left:140px;
+	top:330px;}
+
+
+	.img5:hover{
+		transform: scale(0.8);}
+		
+		
+		.card6{
+	border:solid 1px black;
+	width:320px;
+	height:380px;
+	margin:10px;}
+
+	.img6{
+padding:20px;
+		width:250px;
+		transition:2s;}
+
+.text6{
+	font-size:20px;
+	color:blue;
+	position: relative;
+	left:140px;
+	top:330px;}
+
+
+	.img6:hover{
+		transform: scale(0.8);
+
+	}
+		
+	.img7{
+		width:1400px;
+		height:800px;
+
+
+	}	
+
+.card8{
+	border:solid 1px black;
+	width:250px;
+	height:430px;
+	margin:20px;
+
+
+
+}
+
+	.img8{
+		position: relative;
+		left:25px;
+		top:-70px;
+		width:200px;
+		transition:2s;}
+
+.text8{
+	font-size:20px;
+	color:black;
+	position: relative;
+	left:4px;
+	top:290px;}
+
+	.button{
+		background-color:yellow;
+		border-radius:15px;
+		font-size:20px;
+		position: relative;
+		left:80px;
+		top:300px;
+	}
+
+		.button2{
+		background-color:blue;
+		border-radius:15px;
+		font-size:20px;
+		position: relative;
+		left:-10px;
+		top:330px;
+		box-shadow:2px 2px 0px;
+		color: white;
+	}
+
+	.img8:hover{
+		transform: scale(0.8);
+
+
+	}
+
+.card9{
+	border:solid 1px black;
+	width:250px;
+	height:430px;
+	position: relative;
+	left:40px;}
+
+	.img9{
+		position: relative;
+		left:25px;
+		top:-70px;
+		width:200px;
+		transition:2s;}
+
+.text9{
+	font-size:20px;
+	color:black;
+	position: relative;
+	left:4px;
+	top:290px;}
+
+	.button3{
+		background-color:yellow;
+		border-radius:15px;
+		font-size:20px;
+		position: relative;
+		left:80px;
+		top:300px;
+	}
+
+		.button3{
+		background-color:blue;
+		border-radius:15px;
+		font-size:20px;
+		position: relative;
+		left:-10px;
+		top:330px;
+		box-shadow:2px 2px 0px;
+		color: white;
+	}
+
+	.img9:hover{
+		transform: scale(0.8);}
+
+      
+.card10{
+	border:solid 1px black;
+	width:250px;
+	height:430px;
+	
+	
+}
+
+	.img10{
+		position: relative;
+		left:25px;
+		top:-70px;
+		width:200px;
+		transition:2s;}
+
+.text10{
+	font-size:20px;
+	color:black;
+	position: relative;
+	left:4px;
+	top:290px;}
+
+	.button4{
+		background-color:yellow;
+		border-radius:15px;
+		font-size:20px;
+		position: relative;
+		left:80px;
+		top:300px;
+	}
+
+		.button4{
+		background-color:blue;
+		border-radius:15px;
+		font-size:20px;
+		position: relative;
+		left:-10px;
+		top:330px;
+		box-shadow:2px 2px 0px;
+		color: white;
+	}
+
+	.img10:hover{
+		transform: scale(0.8);}
+
+  .div1{
+  	background-color:blue;
+  	width:1600px;
+  	height:60px;
+
+  }
+      
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+      
+
+	.text{
+		font-size:50px;
+		color:white;
+		display: flex;
+		justify-content: ;
+		position:relative;
+		top:130px;
+		justify-content:center;
+
+	}
+
+
+
+
+
+
+
+

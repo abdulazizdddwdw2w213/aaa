@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Kdam+Thmor+Pro&family=Prompt:wght@100&family=Tiro+Telugu&family=Work+Sans:ital,wght@0,100;0,400;1,500&display=swap" rel="stylesheet"> 
+     
+</head>
+<body>
+   <button onclick="btn()" id="dd" style="width: 70px; height:40px; position: absolute; left: 95%; top: ;"   >   нажми </button> 
+  <div id="div" style="text-align:center ;"> </div>
+ <h1 id="asan" >  </h1>
+ <button onclick="btn1()" id="aaa" style="width: 70px; height:40px; position: absolute; top: 50%;"  >  нажми  </button> 
+
+
+<script>  
+let a = prompt('www')
+div.innerHTML = ` <h1> ${a} </h1> ` 
+ 
+let g = [ 'red', 'lime', 'blue',  'green']
+let d = ['Dancing Script', 'Kdam Thmor Pro', 'Tiro Telugu', 'Work Sans', 'Prompt', 'Indie Flower'];         
+ let n = 0 
+ 
+
+
+ 
+ let but = document.getElementById('dd') 
+  let put = document.getElementById('aaa') 
+ let mut = document.getElementById('div') 
+btn = () => {
+      
+ document.body.style.backgroundColor = g[n]; 
+
+        dd.innerHTML =  g[n]
+    n++ 
+    if (n == 4) {
+        n = 0 
+       
+    }  
+}
+ btn1 = () => { 
+   put.innerHTML = d[n]; 
+
+  mut.style.fontFamily = d[n]; 
+   
+  if (n>=d.length) { 
+   n = 0; 
+  } 
+  n++; 
+  } 
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

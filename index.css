@@ -1,0 +1,287 @@
+.card1{
+	background-color:black;
+	width:1600px;
+	height:600px;
+}
+
+.text1{
+	font-size:50px;
+	color:white;
+	text-align: center;
+	padding-top:100px;
+	animation-name:text1;
+	animation-duration:5s;
+	animation-iteration-count:1;
+}
+
+@keyframes text1{
+ 0%{
+  color: black;
+ }
+ 25%{
+  color: white;
+  
+ }
+ 50%{
+  color: white;
+ }
+}
+
+
+
+.img1{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	position:relative;
+	left:700px;
+	top:170px;
+	animation-name:img1;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+
+}
+
+@keyframes img1 {
+ from{
+  transform: rotate(0deg);
+ }
+ to{
+
+  
+ }
+ from{
+  transform:rotate(-360deg);
+ }
+}to
+
+.card2{
+	border:solid 1px black;
+	width:1000px;
+	height:500px;
+}
+
+.card3{
+   border:solid 1px black;
+   width:300px;
+   height:300px;
+}
+
+.text3{
+   padding-left:50px;
+   font-size:40px;
+}
+
+
+
+.text4{
+   background-color: #4b0082;
+   font-size:25px;
+   color: white;
+   position: relative;
+   top:50px;
+   left:130px;
+   text-align: center;
+   width:80px;
+   border-radius:30px;
+
+}
+
+.text6{
+   font-size:20px;
+  padding-top:40px;
+  padding-left:60px;
+}
+
+.a {  
+   display: flex;
+   flex-wrap: wrap;
+      margin-left: 180px;
+     
+   }
+   .h {
+    border: 2px black solid;
+      width: 550px;
+      height: 500px;
+      background-color:silver;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 2px 2px 20px #00ffff;
+      margin-top: 80px;
+      border-radius: 10px;
+       
+
+   }
+      .k {
+   
+      position: absolute;
+      left: -40%;
+      transition: 1s;
+      
+      }
+
+     .J{
+      display: flex; 
+      flex-wrap: wrap;
+      margin-left: 200px;
+      font-size: 25px;
+      margin-top: 10px;
+     }
+     .m{
+      display: flex; 
+      flex-wrap: wrap;
+      margin-left: 250px;
+      font-size: 30px;
+      margin-top: 100px;
+      color:mediumblue;
+  
+     }
+     .n{
+      display: flex; 
+      flex-wrap: wrap;
+      margin-left: 250px;
+     
+      font-size: 25px;
+      background-color: blue;
+      color: white;
+      border-radius: 10px;
+     }
+      
+
+     .k:hover {
+     
+      left: -10%;
+      
+   }
+
+
+     .k1:hover {
+     
+      left: -10%;
+      
+   }
+
+.text4{
+   padding-left:50px;
+   font-size:30px;
+   
+}
+
+
+
+.text5{
+   background-color: #4b0082;
+   font-size:25px;
+   color: white;
+   position: relative;
+   top:50px;
+   left:130px;
+   text-align: center;
+   width:80px;
+   border-radius:30px;
+
+}
+
+.text7{
+   font-size:30px;
+  padding-top:40px;
+  padding-left:60px;
+}
+
+
+.a1{
+   display: flex;
+   flex-wrap: wrap;
+      margin-left: 200px;
+     
+   }
+   .h1 {
+    border: 2px black solid;
+      width: 550px;
+      height: 500px;
+      background-color:silver;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 2px 2px 20px #00ffff;
+      margin-top: 80px;
+      border-radius: 10px;
+       
+
+   }
+      .k1{
+   
+      position: absolute;
+      left: -40%;
+      transition: 1s;
+      
+      }
+
+     .J1{
+      display: flex; 
+      flex-wrap: wrap;
+      margin-left: 200px;
+      font-size: 25px;
+      margin-top: 10px;
+     }
+     .m1{
+      display: flex; 
+      flex-wrap: wrap;
+      margin-left: 250px;
+      font-size: 30px;
+      margin-top: 100px;
+      color:mediumblue;
+  
+     }
+     .n1{
+      display: flex; 
+      flex-wrap: wrap;
+      margin-left: 250px;
+     
+      font-size: 25px;
+      background-color: blue;
+      color: white;
+      border-radius: 10px;
+     }
+      
+
+     .k1:hover {
+     
+      left: -10%;
+      
+   }
+
+
+     .k1:hover {
+     
+      left: -10%;
+      
+   }
+
+.text5{
+   padding-left:50px;
+   font-size:30px;
+   
+}
+
+
+
+.tex6{
+   background-color: #4b0082;
+   font-size:25px;
+   color: white;
+   position: relative;
+   top:50px;
+   left:130px;
+   text-align: center;
+   width:80px;
+   border-radius:30px;
+
+}
+
+.text8{
+   font-size:30px;
+  padding-top:40px;
+  padding-left:60px;
+}
+
+

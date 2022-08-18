@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <meta charset="utf-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ 
+ <title></title> 
+</head> 
+<body> 
+ <input id="b" type="checkbox">
+<h1 id="h1"></h1>
+     
+<script type="text/javascript"> 
+
+b.onclick = (e) => {
+  if(e.target.checked == true) {
+    document.body.style.backgroundColor = 'black'
+
+  }else{
+    document.body.style.backgroundColor = 'white'
+    localStorage.setItem('dark', 'off')
+    h1.innerHTML = 'ligt'
+    h1.style.color = 'black'
+  }
+}
+
+const  g = () => {
+  if (c == 'off') {
+    document.body.style.backgroundColor = 'white'
+    h1.innerHTML = 'ligt'
+    h1.style.color = 'black'
+    localStorage.setItem('dark', 'off')
+    b.checked = false
+    
+  }else{
+    document.body.style.backgroundColor = 'black'
+    localStorage.setItem('dark', 'on')
+    b.checked = true
+  }
+}
+g()
+
+
+
+</script> 
+</body> 
+</html>
+
